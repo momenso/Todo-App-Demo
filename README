@@ -1,0 +1,32 @@
+
+
+sudo apt-get update
+
+sudo apt-get install git 
+git clone git@github.com:rjrodger/todolistmobileapp.git
+
+
+sudo apt-get install nginx
+sudo apt-get install emacs23 vim 
+
+sudo apt-get install mongodb
+
+sudo apt-get install build-essential libssl-dev
+
+mkdir build
+cd build
+wget http://nodejs.org/dist/v0.6.12/node-v0.6.12.tar.gz
+tar -xzf node-v0.6.12.tar.gz
+
+./configure
+make
+sudo make install
+
+node -v
+npm -v
+
+
+cd
+cd todolistmobileapp
+node node/lib/db-server.js
+
