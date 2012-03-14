@@ -3,7 +3,7 @@
 sudo apt-get update
 
 sudo apt-get install git 
-git clone git@github.com:rjrodger/todolistmobileapp.git
+git clone git@github.com:momenso/Todo-App-Demo.git
 
 
 sudo apt-get install nginx
